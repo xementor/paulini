@@ -1,0 +1,113 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background: #e1e1e1;
+	height: vh;
+	width: vw;
+}
+
+.display{
+	background: white;
+	margin: 10vh 5vw;
+	height: 80vh;
+}
+
+
+.header{
+	display: flex;
+	flex-direction: row;
+
+	justify-content: space-between;
+
+	align-items: center;
+
+	padding: 1rem 1.5rem;
+}
+
+.logo-text {
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+.navlink ul {
+	display: flex;
+}
+.navlink li {
+	text-decoration: none;
+	list-style-type: none;
+	padding: 0 10px;
+}
+
+.profile {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+/* showcase */
+.showcase {
+	padding: 0.5rem 1.5rem;
+	display: flex;
+}
+
+.showcase-text-part {
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-right: 2rem;
+
+}
+.showcase-header-text h4,h1{
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+.showcase-header-text h4{
+	font-size: 1.3rem;
+	text-decoration: none;
+	margin-bottom: .3rem;
+}
+.showcase-header-text h1{
+	font-size: 4rem;
+	margin-bottom: 1rem;
+}
+
+.bt-outline-white{
+	background: inherit;
+	color: blue;
+
+	padding: .5rem 1rem;
+
+}
+.circle-with-text {
+	display: flex;
+	align-items: center;
+	margin: 1rem 0;
+}
+.circle{
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+.text p{
+	margin: 0;
+	padding: 0;
+}
+.text{
+	margin-left: .5rem;
+}
+
+.red-text{
+	color: red;
+}
+
+
+.image{
+	background: gold;
+	height: 60vh;
+	width: 50vw;
+}
